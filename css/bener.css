@@ -40,8 +40,7 @@
     background: url('../Img/heheh.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%
-    ;
+    width: 100%;
 }
 
 
@@ -63,6 +62,21 @@
 .table-container {
     position: relative;
     overflow-y: auto;
-    max-height: 500px;
+    max-height: 600px;
     margin: 0;
+}
+
+.table-max{
+    max-height: 600px;
+
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.sticky-top th{
+    position: sticky;
+    top:0;
+    z-index:1020;
 }
