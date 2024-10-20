@@ -1,0 +1,68 @@
+
+.jumbotron{
+    background:linear-gradient(180deg, #c4b6fd, #93acdc);
+}
+
+.bg-blur {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    background-color: transparent;
+    font-family: "Afacad Flux", sans-serif;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  margin-bottom: 5px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('../Img/heheh.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%
+    ;
+}
+
+
+.table-striped thead th{
+    background-color: #c4b6fd;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #e9ecef;
+}
+
+.table-striped tbody tr td:hover {
+    background-color: yellow;
+}
+
+.table-container {
+    position: relative;
+    overflow-y: auto;
+    max-height: 500px;
+    margin: 0;
+}
